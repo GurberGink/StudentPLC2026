@@ -39,4 +39,4 @@ greet1 = "hello " ++ name ++ (toString 123)
 -- the same, but with the operator as a function (like Lisp):
 greet2 = (++) "hello " name
 -- concatenating more than 2 strings:
-greet3 = concat ["hello ", name, toString 123]
+greet3 = concat ["hello ", name, name, toString 123]
